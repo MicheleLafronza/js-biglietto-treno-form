@@ -9,11 +9,30 @@
 <body>
     <main>
 
+        <!-- FORM CON I VARI INPUT -->
         <form action="#">
 
-            <input type="text" name="nome" id="" placeholder="inserisci il nome del passeggero">
-            <input type="text" name="km" id="" placeholder="inserisci la lunghezza del viaggio">
+            <!-- INPUT NOME -->
+            <input type="text" name="nome" class="nome" placeholder="inserisci il nome del passeggero">
+
+            <!-- INPUT LUNGHEZZA VIAGGIO -->
+            <input type="text" name="km" class="km" placeholder="inserisci la lunghezza del viaggio">
+
+            <!-- SELECT PER L'ETA' -->
+            <select name="anni" class="anni">
+                <option value="Minorenne">Minorenne</option>
+                <option value="Maggiorenne">Maggiorenne</option>
+                <option value="Over65">Over 65</option>
+            </select>
+
+            <!-- BOTTONE DI INVIO -->
+            <button id="bottone">Invia</button>
+
+            <!-- BOTTONE DI RESET -->
+            <input type="reset" value="Annulla">
+
         </form>
+
     </main>
 
     <script type="text/javascript" src="js/main.js"></script>
