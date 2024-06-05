@@ -44,8 +44,9 @@ button.addEventListener("click",
 
         // genero numeri casuali per carrozza e CP
         let carrozz = Math.floor(Math.random() * 10) + 1;
-        let cp = Math.floor(Math.random()*90000) + 10000;
         console.log("Numero carrozza", carrozz);
+        
+        let cp = Math.floor(Math.random()*90000) + 10000;
         console.log("Numero CP", cp);
         
         // stampo info sul biglietto
